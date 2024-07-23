@@ -1,0 +1,90 @@
+header{
+    background-color: #13355c;
+    padding:20px;
+}
+
+/*navigation*/
+
+.navbar{
+    margin-top: -10px;
+    background-color:#234f6d;
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-right: 3px solid white;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border-radius: 1px;
+    border-right: 3px solid white;
+}
+
+.navbar .btn button{
+   float: right;
+   margin-bottom: 40px;
+   margin: 15px;
+   margin-right:40px ;
+   border-width: 3px;
+   padding: 5px 10px;
+   border-radius: 5px;
+   cursor: pointer;
+   transition:ease-in-out;
+   color:white;
+   background-color:#234f6d;
+   border-color: white;
+   width: 90px;
+}
+
+.coffee h1{
+    color:#13355c;
+    margin-top: 45px;
+    font-size: 70px;
+    margin-left: 15px;
+}
+
+.coffee p{
+    color:#13355c;
+    font-size: 65px;
+    margin-top: -45px;
+    margin-left:15px;
+}
+
+.coffee img{
+    float: right;
+    margin-top: -210px;
+    margin-right: -8px;
+    width: 800px;
+    height:500px
+}
+
+.cup{
+    margin-top: 90px;
+    border-left: 4px solid #13355c;
+}
+
+.cup p{
+    font-size: 25px;
+    color: gray;
+    margin-left: 15px;
+}
+
+.btnn{
+    margin-top: 50px;
+}
+
+.btnn button{
+    margin-left: 30px;
+    height: 45px;
+    width: 150px;
+    cursor: pointer;
+    color:white;
+    background-color:#234f6d;
+    border-radius:12px;
+    font-size: 20px;
+}
